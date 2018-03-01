@@ -34,7 +34,7 @@ class ChatWidget extends State<MainWidget>{
                 controller: _isiPesan,
                 onSubmitted: _submitKlik,
                 decoration: new InputDecoration.collapsed(
-                    hintText: "Input pesan disini"
+                    hintText: "Send Message.."
                 ),
               ),
             ),
